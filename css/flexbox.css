@@ -33,7 +33,7 @@
 
 .menu__container{
     position: fixed;
-    bottom: 0%;
+    bottom: 0;
     height: 74px;
     width: 100%;
 }
@@ -54,7 +54,13 @@
     display: none;
 }
 
-/* Responsivide */
+.menu__itens{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Responsividade */
 
 @media (min-width: 846px){
     .cabecalho__pesquisar__item{
@@ -63,6 +69,24 @@
     
     .rodape__container{
         justify-content: space-between;
+    }
+}
+
+@media (min-width: 834px){
+    .menu__container{
+        position: fixed;
+        left: 0;
+        top: 80px;
+        height: auto;
+        width: 74px;
+    }
+
+    .menu__lista{
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
+        flex-direction: column;
     }
 }
 
