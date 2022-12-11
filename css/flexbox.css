@@ -19,6 +19,18 @@
     flex-flow: column wrap;
 }
 
+/* Seção Superior */
+
+.superior__secao__container{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 15px;
+    overflow: scroll;
+}
+
+/* Responsivide */
+
 @media (min-width: 846px){
     .cabecalho__pesquisar__item{
         display: block;
