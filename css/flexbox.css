@@ -14,9 +14,16 @@
 
 /* Vídeo */
 
+.videos__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .videos__item{
     height: 303px;
     width: 280px;
+    flex-grow: 1;
 }
 
 /* Rodapé */
