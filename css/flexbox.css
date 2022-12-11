@@ -19,7 +19,7 @@
     flex-flow: column wrap;
 }
 
-/* Seção Superior */
+/* Seção superior */
 
 .superior__secao__container{
     display: flex;
@@ -27,6 +27,15 @@
     white-space: nowrap;
     gap: 15px;
     overflow: scroll;
+}
+
+/* Menu lateral */
+
+.menu__container{
+    position: fixed;
+    bottom: 0%;
+    height: 74px;
+    width: 100%;
 }
 
 /* Responsivide */
