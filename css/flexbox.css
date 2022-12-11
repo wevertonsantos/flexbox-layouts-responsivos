@@ -66,13 +66,7 @@
     .cabecalho__pesquisar__item{
         display: block;
     }
-    
-    .rodape__container{
-        justify-content: space-between;
-    }
-}
 
-@media (min-width: 834px){
     .menu__container{
         position: fixed;
         left: 0;
@@ -88,5 +82,26 @@
         gap: 33px;
         flex-direction: column;
     }
+    
+    .rodape__container{
+        justify-content: space-between;
+    }
 }
 
+@media (min-width: 1440px){
+    .menu__lista:nth-child(2),
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4){
+        display: flex;
+    }
+
+    .menu__container{
+        width: 239px;
+        overflow: scroll;
+    }
+
+    .menu__lista{
+        height: auto;
+        padding: 20px 17px 20px 15px;
+    }
+}
